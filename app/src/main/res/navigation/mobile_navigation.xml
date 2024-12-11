@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tecnof.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tienda"
+        android:name="com.example.tecnof.tienda"
+        android:label="@string/menu_tienda"
+        tools:layout="@layout/fragment_tienda" />
+
+    <fragment
+        android:id="@+id/nav_donaciones"
+        android:name="com.example.tecnof.donaciones"
+        android:label="@string/menu_Donaciones"
+        tools:layout="@layout/fragment_donaciones" >
+        <action
+            android:id="@+id/action_nav_donaciones_to_nav_perf"
+            app:destination="@id/nav_perf" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_soporte"
+        android:name="com.example.tecnof.soporte"
+        android:label="@string/menu_Soporte"
+        tools:layout="@layout/fragment_soporte" />
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.tecnof.faq"
+        android:label="@string/menu_Faq"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/nav_perf"
+        android:name="com.example.tecnof.Perfil"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_garantia"
+        android:name="com.example.tecnof.navgarantia"
+        android:label="@string/menu_Garantia"
+        tools:layout="@layout/fragment_navgarantia" />
+
+    <fragment
+        android:id="@+id/nav_citas"
+        android:name="com.example.tecnof.Citas"
+        android:label="@string/menu_Citas"
+        tools:layout="@layout/fragment_citas" />
+
+</navigation>

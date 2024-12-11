@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="322dp"
+        android:layout_height="700dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="49dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BIENVENIDOS/AS"
+                android:textColor="@color/black_purple"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                android:text="Somos una empresa especializada en el reacondicionamiento de hardware y software. Nuestro objetivo principal es promover la reutilización de hardware de segunda mano, ofreciendo soluciones tecnológicas de alta calidad a costos accesibles y óptimos para nuestros clientes. Nos dedicamos a prolongar la vida útil de los dispositivos electrónicos, brindando alternativas económicas sin comprometer el rendimiento ni la fiabilidad. Además, nos esforzamos por mantener altos estándares de calidad en todos nuestros productos, garantizando que cada cliente reciba el mejor valor posible por su inversión. Con un fuerte compromiso con la sostenibilidad, trabajamos para reducir el desperdicio electrónico y contribuir a un futuro más verde."
+                android:textColor="@color/black_purple"
+                />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:src="@drawable/pc1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:text="Sobre los productos"
+                android:textColor="@color/black_purple"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="255dp"
+                android:textColor="@color/black_purple"
+                android:text="Somos una empresa especializada en el reacondicionamiento de equipos de hardware y software, comprometida con la reutilización y la sostenibilidad. Obtendremos nuestros equipos principalmente de empresas que actualizan su tecnología o realizan renovaciones de parque informático. Nuestro objetivo es extender la vida útil de estos equipos mediante procesos rigurosos de restauración y actualización, asegurando que funcionen como nuevos y ofreciendo alternativas accesibles y de alta calidad a nuestros clientes. Aspiramos a reducir el desperdicio electrónico y a contribuir a un futuro más sostenible, proporcionando soluciones tecnológicas confiables y económicas." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="284dp"
+                android:src="@drawable/pcreal2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textTiUbi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Donde Ubicarnos?"
+                android:textColor="@color/black_purple"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textubi"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="¿Deseas buscar un lugar dónde adquirir los equipos en físico? Tecnofusion cuenta con sedes en diversas partes del país, con gusto te indicaremos los puntos más cercanos "
+                android:textColor="@color/black_purple" />
+
+            <Button
+                android:id="@+id/boton_maps"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Ir a " />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

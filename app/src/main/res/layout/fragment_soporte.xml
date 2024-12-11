@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soporte">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Titulo del Formulario -->
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="Formulario para \n contactanos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <!-- Nombre -->
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:gravity="center"
+                android:textColor="@color/black_purple"
+                android:layout_margin="15dp"
+                />
+
+            <EditText
+                android:id="@+id/editTextNombre"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:gravity="center"
+                android:textColor="@color/black_purple"
+                android:layout_margin="15dp"
+                />
+            <!-- Email -->
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+                android:gravity="center"
+                android:textColor="@color/black_purple"
+                android:layout_margin="15dp"
+                />
+
+            <!-- Teléfono -->
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digite su consulta"
+                android:gravity="center"
+                android:textColor="@color/black_purple"
+                android:layout_margin="15dp"
+                />
+
+            <!-- Mensaje -->
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:textSize="16dp" />
+
+
+
+            <!-- Aceptación de términos y condiciones -->
+            <CheckBox
+                android:id="@+id/checkboxTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acepta los términos y condiciones"
+                android:textSize="14sp"
+                android:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <!-- Botón de Enviar -->
+            <Button
+                android:id="@+id/buttonEnviar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="Enviar" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

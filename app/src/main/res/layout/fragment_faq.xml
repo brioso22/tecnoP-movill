@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fon" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="¿En qué podemos ayudarte?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Que es tecnofucion como plataformas?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:background="@drawable/borde_edittext2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="Tecnofusion es una innovadora plataforma dedicada al manejo y gestión integral del proyecto homónimo. Su propósito principal es brindar una solución accesible y eficiente para la comercialización de equipos reacondicionados, asegurando que la tecnología sea asequible para todo tipo de usuarios, sin importar su perfil o necesidades económicas. Objetivos de la Plataforma: El objetivo central de Tecnofusion es democratizar el acceso a la tecnología de calidad a través de productos reacondicionados a precios competitivos, fomentando la sostenibilidad y reduciendo el impacto ambiental. Al reutilizar equipos tecnológicos y darles una segunda vida, ayudamos a reducir el desperdicio electrónico, promoviendo una cultura de consumo responsable."
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Qué tipos de productos venden en Tecnofusion?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:background="@drawable/borde_edittext2"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="En Tecnofusion nos enorgullecemos de ofrecer una amplia gama de dispositivos electrónicos reacondicionados, que han sido minuciosamente revisados y restaurados para garantizar su excelente estado de funcionamiento. Nuestra selección abarca desde equipos de alto rendimiento hasta accesorios esenciales, todos diseñados para satisfacer las necesidades de una diversa variedad de usuarios, ya sean profesionales, estudiantes, o aficionados a la tecnología."
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Qué significa que un producto sea reacondicionado?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:background="@drawable/borde_edittext2"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="Un producto reacondicionado es un dispositivo que ha sido previamente utilizado, pero que ha pasado por un proceso de restauración exhaustivo para garantizar que funcione correctamente y luzca en excelentes condiciones antes de ser puesto nuevamente a la venta. Este proceso está diseñado para asegurar que los productos reacondicionados mantengan los más altos estándares de calidad, a un precio significativamente más accesible que un equipo nuevo. El proceso incluye varias etapas críticas que detallamos a continuación"
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Los productos reacondicionados tienen garantía?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:background="@drawable/borde_edittext2"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="Sí, en Tecnofusion entendemos que la confianza es fundamental al adquirir productos reacondicionados. Por eso, todos nuestros productos cuentan con una garantía que varía según el tipo de dispositivo. A continuación, te ofrecemos una descripción detallada de nuestra política de garantía, diseñada para ofrecerte tranquilidad "
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ¿Qué métodos de pago aceptan?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:background="@drawable/borde_edittext2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R5"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="En Tecnofusion nos comprometemos a facilitar tu experiencia de compra ofreciendo una variedad de métodos de pago. Queremos asegurarnos de que el proceso de compra sea lo más cómodo y seguro posible, por lo que hemos integrado varias opciones para que elijas la que mejor se adapte a tus necesidades."
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/Q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borde_edittext2"
+                android:text=" ¿Por qué elegir Tecnofusion 360?"
+                android:textAlignment="center"
+                android:textColor="@color/black_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/R6"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:text="Nos diferenciamos por nuestra dedicación a la calidad, la atención al cliente y la sostenibilidad. Todos nuestros productos pasan por un riguroso proceso de reacondicionamiento y prueba, asegurando que cumplen con los más altos estándares antes de ser ofrecidos a nuestros clientes. Además, ofrecemos garantía en todos nuestros dispositivos, porque creemos en la confianza y la transparencia"
+                android:textColor="@color/black_purple"
+                android:visibility="invisible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

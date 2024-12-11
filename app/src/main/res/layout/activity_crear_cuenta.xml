@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/confirmarcontra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuenta">
+
+    <!-- Título de la pantalla -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/createAccountTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Crear Cuenta"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:gravity="center"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Nombre de Usuario"
+            android:importantForAccessibility="yes"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="Correo Electrónico"
+            android:importantForAccessibility="yes"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:hint="Contraseña"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/confirmarpass"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:hint="confirmar Contraseña"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Ya tienes cuenta? Inicia sesión"
+            android:textColor="#00796B"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/createAccountButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:padding="0dp"
+            android:text="Crear Cuenta" />
+
+        <Button
+            android:id="@+id/google"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/common_google_signin_btn_text_dark_normal"
+            android:gravity="start|right"
+            android:text="Iniciar con google"
+            android:textColor="#000000" />
+
+        <!-- ProgressBar in activity_crear_cuenta.xml -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            style="?android:attr/progressBarStyleLarge" />
+
+
+    </LinearLayout>
+
+    <!-- Campo de correo electrónico -->
+
+    <!-- Campo de contraseña -->
+
+    <!-- Botón para crear la cuenta -->
+
+    <!-- Texto para regresar a la pantalla de login -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

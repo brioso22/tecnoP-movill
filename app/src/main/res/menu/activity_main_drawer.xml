@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/hogar"
+            />
+        <item
+            android:id="@+id/nav_perf"
+            android:title="perfil"
+            android:icon="@drawable/perfil_del_usuario"
+            />
+
+        <item
+            android:id="@+id/nav_donaciones"
+            android:title="Donaciones"
+            android:icon="@drawable/regalo_"
+
+            />
+        <item
+            android:id="@+id/nav_soporte"
+            android:title="Soporte"
+            android:icon="@drawable/apoyo"
+
+            />
+        <item
+            android:id="@+id/nav_faq"
+            android:title="Preguntas Frecuentes FAQ"
+            android:icon="@drawable/ayuda"
+            />
+        <item
+            android:id="@+id/nav_tienda"
+            android:title="Tienda"
+            android:icon="@drawable/bolsa_de_la_compra"
+            />
+        <item
+            android:id="@+id/nav_garantia"
+            android:title="Garantia"
+            android:icon="@drawable/seguro_de_calidad"
+            />
+        <item
+            android:id="@+id/nav_citas"
+            android:title="Cita para mantenimiento"
+            android:icon="@drawable/cita_medica"
+            />
+    </group>
+</menu>

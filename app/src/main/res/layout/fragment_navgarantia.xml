@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navgarantia">
+
+    <!-- Contenedor principal de los formularios -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Código de factura -->
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="Formulario para \n garantia"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Código de Factura"
+                android:paddingStart="40dp"
+                android:textColor="@color/black_purple"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editTextCodigoFactura"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="text" />
+
+            <!-- Nombre completo del cliente -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="40dp"
+                android:text="Nombre completo"
+                android:textColor="@color/black_purple" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editTextNombreCliente"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="text" />
+
+            <!-- Número de teléfono -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="40dp"
+                android:text="Número de teléfono"
+                android:textColor="@color/black_purple" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:id="@+id/editTextTelefono"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="phone" />
+
+            <!-- Correo electrónico de contacto -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="40dp"
+                android:text="Correo electrónico"
+                android:textColor="@color/black_purple" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="textEmailAddress" />
+
+            <!-- Descripción del o los productos -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="40dp"
+                android:text="Descripción de los productos"
+                android:textColor="@color/black_purple" />
+
+            <EditText
+                android:id="@+id/editTextDescripcion"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/borde_edittext"
+                android:gravity="center"
+                android:inputType="textMultiLine"
+                android:lines="3" />
+
+            <!-- Aceptación de los términos y condiciones -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <CheckBox
+                android:id="@+id/checkboxTerms"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Acepta los términos y condiciones" />
+
+            <!-- Botón Enviar -->
+            <Button
+                android:id="@+id/buttonEnviar"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:text="Enviar"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
